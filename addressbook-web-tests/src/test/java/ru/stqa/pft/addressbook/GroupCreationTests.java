@@ -1,4 +1,5 @@
 package ru.stqa.pft.addressbook;
+<<<<<<< HEAD
 
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
@@ -27,6 +28,17 @@ public class GroupCreationTests {
 
   @Test
   public void testGroupCreation() throws Exception {
+=======
+import org.testng.annotations.*;
+import org.openqa.selenium.*;
+
+
+public class GroupCreationTests extends TestBase {
+
+
+  @Test
+  public void testGroupCreation() {
+>>>>>>> parent of 4cbebfc... Лекция 2.6
 
     gotoGroupPage();
     initGroupCreation();
@@ -36,6 +48,7 @@ public class GroupCreationTests {
     wd.findElement(By.linkText("Logout")).click();
   }
 
+<<<<<<< HEAD
   private void returnToGroupPage() {
     wd.findElement(By.linkText("group page")).click();
   }
@@ -89,4 +102,8 @@ public class GroupCreationTests {
 
 
   }
+=======
+
+}
+>>>>>>> parent of 4cbebfc... Лекция 2.6
 
