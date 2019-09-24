@@ -1,5 +1,6 @@
 package ru.stqa.pft.addressbook;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.*;
@@ -29,6 +30,8 @@ public class GroupCreationTests {
   @Test
   public void testGroupCreation() throws Exception {
 =======
+=======
+>>>>>>> parent of 4cbebfc... Лекция 2.6
 import org.testng.annotations.*;
 import org.openqa.selenium.*;
 
@@ -38,6 +41,9 @@ public class GroupCreationTests extends TestBase {
 
   @Test
   public void testGroupCreation() {
+<<<<<<< HEAD
+>>>>>>> parent of 4cbebfc... Лекция 2.6
+=======
 >>>>>>> parent of 4cbebfc... Лекция 2.6
 
     gotoGroupPage();
@@ -48,6 +54,7 @@ public class GroupCreationTests extends TestBase {
     wd.findElement(By.linkText("Logout")).click();
   }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   private void returnToGroupPage() {
     wd.findElement(By.linkText("group page")).click();
@@ -102,6 +109,10 @@ public class GroupCreationTests extends TestBase {
 
 
   }
+=======
+
+}
+>>>>>>> parent of 4cbebfc... Лекция 2.6
 =======
 
 }
